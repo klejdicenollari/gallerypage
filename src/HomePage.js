@@ -26,21 +26,23 @@ import { planimetri} from "./Assets/Images";
 import { Link, useNavigate } from 'react-router-dom';
 
 
-export const HomePage = () => {
-    const navigate = useNavigate()
+export const HomePage = ({myRefContact , myRefProject}) => {
+
+  
+  const scrollDiv = () => myRefContact.current.scrollIntoView({ behavior: "smooth"  }) 
   return (
     <div>        <section className="sec1">
     <div className="stil1">
         <div className="atp">
         <h3>Architecture & Town Planning</h3>
         <p className="p">Sample text. Click to select the text box. Click again or double click to start editing the text. Condim entumisirs mattis pellentesque id nibh tortor id aliquet.</p>
-<Link  to={'/contact'}>
-<button >Contact Us</button>
-</Link>
+
+<button onClick={scrollDiv}>Contact Us</button>
+
 </div>
         </div>
 </section>
-<section className="sec2">
+<section className="sec2" ref={myRefProject}>
     <div className="stil2">
         <h2>Our Projects</h2>
         <p>Our projects stem from a commitment to the transformative role of ideas and their power to establish new realities that engage this world.</p>
@@ -60,7 +62,7 @@ export const HomePage = () => {
 
                 </div>
             </div>
-            <button>Contact Us</button>
+            <button onClick={scrollDiv}>Contact Us</button>
         </div>
     </div>
 </section>
@@ -193,7 +195,7 @@ Sunday Times Awards - Manser Medal / Shortlisted</p>
     </section>
 
 
-    <section className="sec9">
+    <section className="sec9" ref={myRefContact} id='contact'>
       <div className="cu">Contact Us</div>
       <div className="form">
         <form className="form">

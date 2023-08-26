@@ -462,10 +462,27 @@ color: #808080;
   
   }
 
-
       .ant-drawer-header {
-          background: #1e486f;
+          background: #3785ce;
           color: white;
         }
-    
-
+        .ant-drawer-title{
+            font-size: larger !important;
+            font-weight: 600!important;
+            color: #1a1b1d !important;
+        }
+        .ant-drawer-body{
+            font-size: larger !important;
+            font-weight: 600!important;
+            color: #1a1b1d !important;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            
+                    }
+ .pr:hover{
+    cursor: pointer;
+ 
+    color:orange;
+   
+ }
