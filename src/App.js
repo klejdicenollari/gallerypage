@@ -57,7 +57,6 @@ function App() {
 </Routes>
 
 <footer className="footer">
-  
       <a href="#" className="link">Template</a> <p>created by</p> <a href="https://klejdicenollari.netlify.app/" target="_blank" rel="noopener noreferrer" className="link"> Klejdi Cenollari </a>
       </footer>
 
