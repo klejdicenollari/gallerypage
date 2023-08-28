@@ -1,5 +1,5 @@
 import './App.scss';
-import { Link, Route,Routes } from "react-router-dom";
+import {  Route,Routes } from "react-router-dom";
 import { HomePage } from './HomePage';
 import { Contacts } from './Contacts';
 import { Barmeny } from './Assets/Images/Barmeny';
@@ -57,6 +57,7 @@ function App() {
 </Routes>
 
 <footer className="footer">
+  
       <a href="#" className="link">Template</a> <p>created by</p> <a href="https://klejdicenollari.netlify.app/" target="_blank" rel="noopener noreferrer" className="link"> Klejdi Cenollari </a>
       </footer>
 

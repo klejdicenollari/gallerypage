@@ -486,3 +486,97 @@ color: #808080;
     color:orange;
    
  }
+
+
+@media (max-width: 1200px) {
+
+    .sec1 .stil1{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .sec6 .stil2{
+        margin: 0px;
+        padding: 0px;
+        width: -webkit-fill-available;
+    }
+    .sec6 .stil2 .atp{
+        height: 100%;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .sec1 .stil1 .atp{
+        text-align: center;
+    }
+
+     .sec6 .stil2 .atp{
+
+        width: 100%;
+    }
+    
+
+    .sec5 .planimetri {
+        margin-bottom: 0px;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .fgb .kutiblu{
+        margin: 0px;
+    }
+
+    .fgb .kutiblu .galeria{
+        padding: 20px;
+        margin: 0px;
+    }
+
+    .sec3 .projektet{
+        flex-direction: column;
+    }
+
+    .sec3{
+        margin-top: 25px;
+    }
+
+    .sec3 .pr{
+        width: 100%;
+    }
+
+    .sec8 .years {
+        flex-direction: column;
+    }
+
+    .sec8 .vit{
+        text-align: center;
+        width: 100%;    
+    }
+    
+    .sec9 {
+        height: 100%;
+        padding-top: 40px;
+        gap: 40px;
+    }
+
+    .sec9 .form{
+        flex-direction: column;
+        width: -webkit-fill-available !important;
+    }
+    .sec1 .stil1 .atp{
+        width: 85%;
+    }
+
+    .sec3 .titulli{
+        padding: 20px;
+        font-size: 33px;
+    }
+
+    .sec9 .form #Submit{
+        width: 100%;
+    }
+    
+    .contacts {
+        flex-direction: column;
+    }
+    
+}
